@@ -1,0 +1,121 @@
+/*SAVE THIS*/
+
+/*SAVE THIS*/
+
+body {
+  font-family: "Roboto", Verdana, sans-serif;
+  background-color: green;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+body > *  {
+  margin: auto;
+  width: 500px;
+  display: block;
+  overflow: auto;
+}
+
+body > script {
+  display: none
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+button {
+  background: #8a0000;
+  color: #FFF;
+  border: 0px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.message {
+  display: none;
+  position: fixed;
+  text-align: center;
+  left: 50%;
+  z-index: 1000;
+  transform: translateX(-50%);
+  background: RGB(255,255,255,0.9);
+  padding: 50px;
+  border: 2px solid black;
+}
+
+h1 {
+animation-name: headline;
+text-align: center;
+padding: 20px;
+text-shadow: 3px 2px 3px black;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+}
+
+@keyframes headline {
+0% {color: white;}
+50% {color: gold;}
+100% {color: white}
+}
+
+@keyframes button {
+0% {border-color: DarkGoldenRod;}
+50% {border-color: DarkGreen;}
+100% {border-color: DarkGoldenRod}
+}
+
+button{
+color: DarkGreen;
+background-color: GhostWhite;
+font-weight: bolder;
+font-size: 40px;
+width: 300px;
+height: 75px;
+border-width: thick;
+box-shadow: 4px 4px 4px #000000;
+border-style: dashed;
+animation-name: button;
+animation-duration: 2s;
+align-items: center;
+animation-iteration-count: infinite;
+}
+
+h2 {
+padding-top: 40px;
+padding-bottom: 30px;
+text-align: center;
+color: white;
+text-shadow: 4px 4px 7px black;
+}
+
+h3 {
+padding-top: 40px;
+padding-bottom: 30px;
+text-align: center;
+color: darkgreen;
+text-shadow: 4px 4px 7px black;
+}
+
+.cards{
+  align-items: center;
+
+}
+
+img{
+align-items: center;
+}
+
+h2.outcome{
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: darkgreen;
+  text-shadow: none;
+}
+
